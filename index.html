@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="yveliko">
+    <div class="wrapper_work"></div>
+    <span class="singUp">sign up</span>
+    <span>|</span>
+    <span class="login">login</span>
+    </div>
+    <div class="wrapper_work">
+      <span class="petOwner">pet owner</span> 
+      <span class="sua">|</span>
+      <span class="personali">personali</span>
+    </div>
+    <div id="error_message">
+  </div>
+    <form class="my-form"  action="" id="myform" onsubmit="return validate();">
+      <div id="firstName" class="input_field">
+        <input type="text" placeholder="username" id="name">
+      </div>
+      <div id="lastName" class="input_field">
+        <input type="text" placeholder="number" id="name">
+      </div>
+      <div id="lastName" class="input_field">
+        <input style="display: none;" class="personNumber" type="text" placeholder="person number" id="name">
+      </div>
+      <div class="input_field">
+        <input type="email" placeholder="Email" id="email">
+      </div>
+      <div class="input_field">
+        <input type="password" placeholder="password" id="password">
+      </div>
+      <div id="confirmPassword" class="input_field">
+        <input type="password" placeholder="confirm password" id="password">
+      </div>
+
+      <div class="btn">
+        <input type="submit">
+      </div>
+    </form>
+  </div>
+
+<button class="sacdeli">login/sing up</button>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

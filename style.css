@@ -1,0 +1,80 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: rgba(12, 8, 73, 0.9824313725);
+  font-size: calc(1em + 1.25vw);
+  background-color: rgba(210, 209, 228, 0.9945098039);
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 4px;
+  transform: translate(-50%, -50%);
+  max-width: 490px;
+  width: 100%;
+  background: rgba(233, 232, 242, 0.997254902);
+  padding: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: none;
+}
+.my-form{
+  position: relative;
+}
+.wrapper span {
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  color: rgba(12, 8, 73, 0.9824313725);
+}
+.wrapper_work{
+  height: 15px;
+}
+
+.wrapper .input_field {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.wrapper .input_field input[type=text], input[type=password], input[type=email],
+.wrapper textarea {
+  border: 1px solid rgba(12, 8, 73, 0.9824313725);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.wrapper textarea {
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type=submit] {
+  border: 0px;
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: rgba(12, 8, 73, 0.9824313725);
+  color: #f8f8f8;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message {
+  margin-bottom: 20px;
+  width: 350px;
+  background: rgba(11, 7, 66, 0.9840784314);
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}

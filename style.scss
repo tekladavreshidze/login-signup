@@ -1,0 +1,78 @@
+$primary-color: #130c74f8; 
+$text-color: mix(#000, $primary-color, 36%);
+body {
+  font-family: "Inter", sans-serif;
+  color: $text-color;
+  font-size: calc(1em + 1.25vw);
+  background-color: mix(#fff, $primary-color, 80%);
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 2px;
+    transform: translate(-50%,-50%);
+    max-width: 370px;
+    width: 100%;
+    background:  mix(#fff, $primary-color, 90%);
+    padding: 30px;
+   border-radius: 15px;
+  }
+  
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 30px;
+    color:mix(#000, $primary-color, 36%);
+    
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+  }
+  
+  .wrapper .input_field input[type="text"],input[type="password"],input[type="email"],
+  .wrapper textarea{
+    border: 1px solid mix(#000, $primary-color, 36%);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+   
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .wrapper .btn input[type="submit"]{
+  
+    border: 0px;
+    margin-top: 15px;
+    margin-left:5px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background:mix(#000, $primary-color, 36%);
+    color: #f8f8f8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  #error_message{
+    margin-bottom: 20px;
+   width: 350px;
+    background:mix(#000, $primary-color, 42%);
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  
